@@ -4,3 +4,6 @@ from django.shortcuts import render
 
 def karim(request):
     return render(request,'karim.html')
+
+def hasen(request):
+    return render(request,'hasen.html')
